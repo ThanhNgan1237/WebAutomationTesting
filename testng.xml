@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Devpro/Auto Test/Homework/ProjectCuoiKhoa">
+        <parameter name="browser" value="Chrome"></parameter>
+        <parameter name="url" value="http://commands.test-code.com/project"></parameter>
+        <parameter name="url2" value="http://commands.test-code.com/admin/add-product"></parameter>
+        <classes>
+            <class name="tests.Login_Test"></class>
+            <class name="tests.Home_Test"></class>
+        </classes>
+
+    </test>
+</suite>
